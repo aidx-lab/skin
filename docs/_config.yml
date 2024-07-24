@@ -1,0 +1,21 @@
+theme: minima
+markdown: kramdown
+
+title: Learning Fine Manipulation Using a Tactile Skin
+author: "{ulf.kasolowsky,berthold.baeuml}@tum.de"
+
+header_pages:
+  - index.md
+  - _pages/iros24.md
+  - _pages/aidx-lab.md
+  
+include:
+    - _pages
+
+plugins:
+  - jekyll-redirect-from
+  
+exclude:
+    - .gitignore
+    - Gemfile
+    - README.md
