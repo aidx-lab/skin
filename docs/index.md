@@ -13,5 +13,5 @@ IROS 2024 by
 [Berthold Bäuml](https://scholar.google.com/citations?user=fjvpDsEAAAAJ){:target="_blank"}.
 
 <p align="center">
-<img src="/grasping/assets/imgs/iros24/front.png" alt="drawing" width="800"/>
+<img src="/skin/assets/imgs/iros24/front.png" alt="drawing" width="800"/>
 </p>
