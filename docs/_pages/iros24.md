@@ -10,7 +10,7 @@ This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learn
 [Ulf Kasolowsky\*](https://www.linkedin.com/in/kasolowsky/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} submitted to the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
 <p align="center">
-<img src="/skin/assets/imgs/humanoids23/front.png" alt="drawing" width="800"/>
+<img src="/skin/assets/imgs/iros24/front.png" alt="drawing" width="800"/>
 </p>
 
 ## Abstract
