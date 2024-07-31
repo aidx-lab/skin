@@ -38,6 +38,7 @@ Cite this paper as:
 ## Domain Randomization
 
 ### Finger Parameters
+Testing inline latex as this formula is $a=1$ and display latex $$b=2$$.
 
 <table>
     <tr>
