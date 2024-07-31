@@ -54,6 +54,13 @@ Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
         <td align="center"> inter </td>
         <td align="center"> $$U(-0.04, 0.04)$$ </td>
     </tr>
+    <tr>
+        <td align="left"> Joint noise </td> 
+        <td align="center"> $$q_\text{noise}$$ </td>
+        <td align="center"> $$\text{rad}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$N(0.0, 0.02)$$ </td>
+    </tr>
 </table>​
 
 
