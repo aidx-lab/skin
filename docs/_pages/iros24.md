@@ -38,9 +38,9 @@ Cite this paper as:
 ## Domain Randomization
 
 ### Finger Parameters
-| Parameter | Unit | Type | Distribution |
-|-|-|-|-|
-| Joint offset | rad | inter | Uniform |
+
+| Parameter | Unit | Type | Distribution
+| Joint offset | rad | inter | Uniform
 
 ---
 
