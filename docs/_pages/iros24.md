@@ -42,7 +42,7 @@ Cite this paper as:
 | Parameter | Unit | Type | Distribution
 | - | - | - | -
 | Joint offset | rad | inter | Uniform
-| <td colspan=2>double </td> | inter | Uniform
+| double || inter | Uniform
 
 
 ---
