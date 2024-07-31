@@ -172,13 +172,75 @@ Cite this paper as:
         <td align="left"> Random forces </td> 
         <td align="center"> $$F_\text{rand}$$ </td>
         <td align="center"> $$N$$ </td>
-        <td align="center"> inter </td>
+        <td align="center"> intra </td>
         <td colspan="2" align="center"> $$U(-4\times10^{-3}, 4\times10^{-3})$$ </td>
     </tr>
 </table>​
 
 ### Skin Parameters
 
+<table>
+    <tr>
+        <th colspan="2" align="left"> Parameter </th>
+        <th align="center"> Unit </th>
+        <th align="center"> Type </th>
+        <th align="center"> Distribution </th>
+    </tr>
+    <tr>
+        <td rowspan="3" align="left"> Sensor position </td> 
+        <td align="center"> $$y$$ </td>
+        <td align="center"> $$\text{mm}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(21.5, 25.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\beta$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-12, 12)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\alpha$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-15, 15)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Elasticity </td> 
+        <td align="center"> $$E$$ </td>
+        <td align="center"> $$\text{MPa}\,\text{m}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(236, 848)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Scale </td> 
+        <td align="center"> $$S_j$$ </td>
+        <td align="center"> $$\text{N}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(61, 76)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Taxel offsets </td> 
+        <td align="center"> $$T_\text{off}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-5, 5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Noise range </td> 
+        <td align="center"> $$\sigma_\text{taxel}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0, 5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Taxel noise </td> 
+        <td align="center"> $$T\text{noise}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> intra </td>
+        <td align="center"> $$N(0, \sigma_\text{noise})$$ </td>
+    </tr>
+</table>​
 
 ---
 
