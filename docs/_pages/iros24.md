@@ -235,7 +235,7 @@ Cite this paper as:
     </tr>
     <tr>
         <td align="left"> Taxel noise </td> 
-        <td align="center"> $$T\text{noise}$$ </td>
+        <td align="center"> $$T_\text{noise}$$ </td>
         <td align="center"> $$1$$ </td>
         <td align="center"> intra </td>
         <td align="center"> $$N(0, \sigma_\text{noise})$$ </td>
@@ -251,13 +251,13 @@ Cite this paper as:
 <table>
     <tr>
         <th></th>
-        <th align="center"> $$\lamda_p$$</th>
-        <th align="center"> $$\lamda_g$$</th>
-        <th align="center"> $$\lamda_f$$</th>
-        <th align="center"> $$\lamda_\alpha$$</th>
-        <th align="center"> $$\lamda_q$$</th>
-        <th align="center"> $$\lamda_\Dot{q}$$</th>
-        <th align="center"> $$\lamda_\tau$$</th>
+        <th align="center"> $$\lambda_p$$</th>
+        <th align="center"> $$\lambda_g$$</th>
+        <th align="center"> $$\lambda_f$$</th>
+        <th align="center"> $$\lambda_\alpha$$</th>
+        <th align="center"> $$\lambda_q$$</th>
+        <th align="center"> $$\lambda_\Dot{q}$$</th>
+        <th align="center"> $$\lambda_\tau$$</th>
     </tr>
     <tr>
         <th align="Left"> Marble </th>
