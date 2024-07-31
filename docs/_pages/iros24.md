@@ -116,6 +116,65 @@ Cite this paper as:
         <td align="center"> inter </td>
         <td colspan="2" align="center"> $$U(-2.0, 2.0)$$ </td>
     </tr>
+    <tr>
+        <td rowspan="3" align="left"> Orientation offset </td> 
+        <td align="center"> $$\psi$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> n. a. </td>
+        <td align="center"> $$U(-5, 5)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\theta$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> n. a. </td>
+        <td align="center"> $$U(-5, 5)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\phi$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> n. a. </td>
+        <td align="center"> $$0.0$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Mass </td> 
+        <td align="center"> $$m$$ </td>
+        <td align="center"> $$\text{g}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(3.0, 5.0)$$ </td>
+        <td align="center"> $$U(5.0, 7.0)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Radius </td> 
+        <td align="center"> $$R$$ </td>
+        <td align="center"> $$\text{mm}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(5.5, 6.5)$$ </td>
+        <td align="center"> $$3.5$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Lateral friction </td> 
+        <td align="center"> $$\mu_\text{lat}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(0.8, 1.0)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Spinning friction </td> 
+        <td align="center"> $$\mu_\text{spin}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$LogU(2\times10^{-3}, 2\times10^{-2})$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Random forces </td> 
+        <td align="center"> $$F_\text{rand}$$ </td>
+        <td align="center"> $$N$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(-4\times10^{-3}, 4\times10^{-3})$$ </td>
+    </tr>
 </table>​
 
 ### Skin Parameters
