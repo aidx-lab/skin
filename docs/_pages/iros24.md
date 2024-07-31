@@ -248,4 +248,37 @@ Cite this paper as:
 
 ### Reward Constants
 
+<table>
+    <tr>
+        <th></th>
+        <th align="center"> $$\lamda_p$$</th>
+        <th align="center"> $$\lamda_g$$</th>
+        <th align="center"> $$\lamda_f$$</th>
+        <th align="center"> $$\lamda_\alpha$$</th>
+        <th align="center"> $$\lamda_q$$</th>
+        <th align="center"> $$\lamda_\Dot{q}$$</th>
+        <th align="center"> $$\lamda_\tau$$</th>
+    </tr>
+    <tr>
+        <th align="Left"> Marble </th>
+        <td align="center"> $$0.1$$ </td> 
+        <td align="center"> $$0.075$$ </td> 
+        <td align="center"> $$0.075$$ </td> 
+        <td align="center"> n. a. </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+    </tr>
+    <tr>
+        <th align="Left"> Bolt </th>
+        <td align="center"> $$0.1$$ </td> 
+        <td align="center"> $$0.075$$ </td> 
+        <td align="center"> $$0.075$$ </td> 
+        <td align="center"> $$0.025$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+    </tr>
+</table>
+
 ### Learning Parameters
