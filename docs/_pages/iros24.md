@@ -57,8 +57,42 @@ Cite this paper as:
         <td align="left"> Joint noise </td> 
         <td align="center"> $$q_\text{noise}$$ </td>
         <td align="center"> $$\text{rad}$$ </td>
-        <td align="center"> inter </td>
+        <td align="center"> intra </td>
         <td align="center"> $$N(0.0, 0.02)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Proportional gain </td> 
+        <td align="center"> $$K_p$$ </td>
+        <td align="center"> $$\text{N\,m\,rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(4.8, 5.2)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Damping gain </td> 
+        <td align="center"> $$K_d$$ </td>
+        <td align="center"> $$\text{N\,m\,s\,rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.26, 0.33)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Parasitic stiffness </td> 
+        <td align="center"> $$K_e$$ </td>
+        <td align="center"> $$\text{N\,m\,rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(15, 35)$$ </td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="left"> Stick friction </td> 
+        <td align="center"> $$\mu_{\text{stick},1/2}$$ </td>
+        <td align="center"> $$\text{N\,m}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.01, 0.03)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\mu_{\text{stick},3}$$ </td>
+        <td align="center"> $$\text{N\,m}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.07, 0.09)$$ </td>
     </tr>
 </table>​
 
@@ -84,6 +118,13 @@ Cite this paper as:
     </tr>
 </table>​
 
+### Skin Parameters
+
+
 ---
 
 ## Learning Configuration
+
+### Reward Constants
+
+### Learning Parameters
