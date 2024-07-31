@@ -73,7 +73,7 @@ Cite this paper as:
     </tr>
     <tr>
         <th align="center"> Marble </th>
-        <th align="center"x> Bolt </th>
+        <th align="center"> Bolt </th>
     </tr>
     <tr>
         <td align="left"> Position offset </td> 
