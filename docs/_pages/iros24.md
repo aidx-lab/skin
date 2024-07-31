@@ -283,3 +283,53 @@ Cite this paper as:
 
 ### Learning Parameters
 
+<table>
+    <tr>
+        <th> Parameter </th>
+        <th> Value </th>
+    </tr>
+    <tr>
+        <td> Number of environments </td>
+        <td> $$12$$ </td>
+    </tr>
+    <tr>
+        <td> Replay buffer sixe </td>
+        <td> $$2 \times 10^5$$ </td>
+    </tr>
+    <tr>
+        <td> Steps before learning </td>
+        <td> $$6000$$ </td>
+    </tr>
+    <tr>
+        <td> Training interval </td>
+        <td> $$60\,\text{steps}$$ </td>
+    </tr>
+    <tr>
+        <td> Gradient steps </td>
+        <td> $$200$$ </td>
+    </tr>
+    <tr>
+        <td> Discount factor </td>
+        <td> $$0.95$$ </td>
+    </tr>
+    <tr>
+        <td> Polyak update </td>
+        <td> $$5\times 10^{-3}$$ </td>
+    </tr>
+    <tr>
+        <td> Target entropy </td>
+        <td> $$-4.0$$ </td>
+    </tr>
+    <tr>
+        <td> Initial entropy coefficient </td>
+        <td> $$0.2$$ </td>
+    </tr>
+    <tr>
+        <td> Learning rate </td>
+        <td> $$3\times 10^{-4}$$ </td>
+    </tr>
+    <tr>
+        <td> Batch size </td>
+        <td> $$256$$ </td>
+    </tr>
+</table>
