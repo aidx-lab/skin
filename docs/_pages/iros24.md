@@ -47,11 +47,11 @@ Cite this paper as:
         <th> Distribution </th>
     </tr>
     <tr>
-        <td> Joint offset </td>
-        <td> $q_\text{off}$ </td>
-        <td> $\text{rad}$ </td>
+        <td> Joint offsets </td>
+        <td> $$q_\text{off}$$ </td>
+        <td> $$\text{rad}$$ </td>
         <td> inter </td>
-        <td> $U(-0.04, 0.04)$ </td>
+        <td> $$U(-0.04, 0.04)$$ </td>
     </tr>
 </table>​
 
