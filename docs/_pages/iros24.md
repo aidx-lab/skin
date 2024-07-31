@@ -39,10 +39,21 @@ Cite this paper as:
 
 ### Finger Parameters
 
-| Parameter | Unit | Type | Distribution
-| - | - | - | -
-| Joint offset | rad | inter | Uniform
-| double || inter | Uniform
+<table>
+    <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+    </tr>
+    <tr>
+        <td colspan="2">span 2 cols</td>
+        <td rowspan="2">span 2 rows</td>
+    </tr>
+    <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+    </tr>
+</table>​
 
 
 ---
