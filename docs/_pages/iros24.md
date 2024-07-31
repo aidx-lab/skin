@@ -53,8 +53,8 @@ Cite this paper as:
         <td> $$U(-0.04, 0.04)$$ </td>
     </tr>
     <tr>
-        <td> Joint noise $$q_\text{noise}$$ </td>
-        <td> $$\text{rad}$$ </td>
+        <td> Joint noise $q_\text{noise}$ </td>
+        <td> $\text{rad}$ </td>
         <td> intra </td>
         <td> $$N(0.0, 0.02)$$ </td>
     </tr>
