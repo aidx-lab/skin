@@ -40,24 +40,19 @@ Cite this paper as:
 ### Finger Parameters
 Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
 
-<table>
+<table align="center">
     <tr>
-        <th> Parameter </th>
+        <th colspan="2" align="left"> Parameter </th>
         <th> Unit </th>
         <th> Type </th>
         <th> Distribution </th>
     </tr>
     <tr>
-        <td> Joint offsets $$q_\text{off}$$ </td>
+        <td align="left"> Joint offsets </td> 
+        <td> $$q_\text{off}$$ </td>
         <td> $$\text{rad}$$ </td>
         <td> inter </td>
         <td> $$U(-0.04, 0.04)$$ </td>
-    </tr>
-    <tr>
-        <td> Joint noise \\(q_\text{noise}\\) </td>
-        <td> $\text{rad}$ </td>
-        <td> intra </td>
-        <td> $$N(0.0, 0.02)$$ </td>
     </tr>
 </table>​
 
