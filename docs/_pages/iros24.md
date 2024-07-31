@@ -49,10 +49,10 @@ Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
     </tr>
     <tr>
         <td align="left"> Joint offsets </td> 
-        <td align="center"> $$q_\text{off}$$ </td>
-        <td align="center"> $$\text{rad}$$ </td>
-        <td align="center"> inter </td>
-        <td align="center"> $$U(-0.04, 0.04)$$ </td>
+        <td> $$q_\text{off}$$ </td>
+        <td> $$\text{rad}$$ </td>
+        <td> inter </td>
+        <td> $$U(-0.04, 0.04)$$ </td>
     </tr>
 </table>​
 
