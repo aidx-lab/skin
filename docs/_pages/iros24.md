@@ -47,13 +47,13 @@ Cite this paper as:
         <th> Distribution </th>
     </tr>
     <tr>
-        <td> Joint offsets &nbsp;$$q_\text{off}$$ </td>
+        <td> Joint offsets $$q_\text{off}$$ </td>
         <td> $$\text{rad}$$ </td>
         <td> inter </td>
         <td> $$U(-0.04, 0.04)$$ </td>
     </tr>
     <tr>
-        <td> Joint noise &nbsp;&nbsp;$$q_\text{noise}$$ </td>
+        <td> Joint noise $$q_\text{noise}$$ </td>
         <td> $$\text{rad}$$ </td>
         <td> intra </td>
         <td> $$N(0.0, 0.02)$$ </td>
