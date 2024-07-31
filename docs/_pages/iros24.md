@@ -40,6 +40,7 @@ Cite this paper as:
 ### Finger Parameters
 
 | Parameter | Unit | Type | Distribution
+| -------------- | ----- | ------- | --------------
 | Joint offset | rad | inter | Uniform
 
 ---
