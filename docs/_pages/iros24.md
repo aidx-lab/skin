@@ -38,7 +38,6 @@ Cite this paper as:
 ## Domain Randomization
 
 ### Finger Parameters
-Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
 
 <table>
     <tr>
@@ -63,6 +62,27 @@ Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
     </tr>
 </table>​
 
+### Object Parameters
+
+<table>
+    <tr>
+        <th rowspan="2" colspan="2" align="left"> Parameter </th>
+        <th rowspan="2" align="center"> Unit </th>
+        <th rowspan="2" align="center"> Type </th>
+        <th colspan="2" align="center"> Distribution </th>
+    </tr>
+    <tr>
+        <th align="center"> Marble </th>
+        <th align="center"x> Bolt </th>
+    </tr>
+    <tr>
+        <td align="left"> Position offset </td> 
+        <td align="center"> $$\Delta x$$ </td>
+        <td align="center"> $$\text{mm}$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(-2.0, 2.0)$$ </td>
+    </tr>
+</table>​
 
 ---
 
