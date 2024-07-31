@@ -63,7 +63,7 @@ Cite this paper as:
     <tr>
         <td align="left"> Proportional gain </td> 
         <td align="center"> $$K_p$$ </td>
-        <td align="center"> $$\text{N\,m\,rad}^{-1}$$ </td>
+        <td align="center"> $${\text{N}\,m\,rad}^{-1}$$ </td>
         <td align="center"> inter </td>
         <td align="center"> $$U(4.8, 5.2)$$ </td>
     </tr>
