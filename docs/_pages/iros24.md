@@ -256,7 +256,7 @@ Cite this paper as:
         <th align="center"> $$\lambda_f$$</th>
         <th align="center"> $$\lambda_\alpha$$</th>
         <th align="center"> $$\lambda_q$$</th>
-        <th align="center"> $$\lambda_\Dot{q}$$</th>
+        <th align="center"> $$\lambda_\dot{q}$$</th>
         <th align="center"> $$\lambda_\tau$$</th>
     </tr>
     <tr>
@@ -282,3 +282,4 @@ Cite this paper as:
 </table>
 
 ### Learning Parameters
+
