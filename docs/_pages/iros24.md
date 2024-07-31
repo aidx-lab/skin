@@ -41,17 +41,17 @@ Cite this paper as:
 
 <table>
     <tr>
-        <th colspan="2> Parameter </th>
+        <th colspan="2"> Parameter </th>
         <th> Unit </th>
         <th> Type </th>
         <th> Distribution </th>
     </tr>
     <tr>
-        <th> Joint offset </th>
-        <th> $$q_\text{off}$$ </th>
-        <th> $$\text{rad}$$ </th>
-        <th> inter </th>
-        <th> $$\matchcal{U}(-0.04, 0.04)$$ </th>
+        <td> Joint offset </td>
+        <td> $q_\text{off}$ </td>
+        <td> $\text{rad}$ </td>
+        <td> inter </td>
+        <td> $U(-0.04, 0.04)$ </td>
     </tr>
 </table>​
 
