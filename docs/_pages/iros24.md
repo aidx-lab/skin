@@ -38,7 +38,7 @@ Cite this paper as:
 ## Domain Randomization
 
 ### Finger Parameters
-Testing inline latex as this formula is $a=1$ and display latex $$b=2$$.
+Testing inline latex as this formula is \\(a=1\\) and display latex \\[b=2\\]
 
 <table>
     <tr>
@@ -54,7 +54,7 @@ Testing inline latex as this formula is $a=1$ and display latex $$b=2$$.
         <td> $$U(-0.04, 0.04)$$ </td>
     </tr>
     <tr>
-        <td> Joint noise $q_\text{noise}$ </td>
+        <td> Joint noise \\(q_\text{noise}\\) </td>
         <td> $\text{rad}$ </td>
         <td> intra </td>
         <td> $$N(0.0, 0.02)$$ </td>
