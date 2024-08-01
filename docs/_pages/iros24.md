@@ -36,6 +36,8 @@ Cite this paper as:
 ---
 
 ## Domain Randomization
+We distinguish two types of domain randomization: Inter-episode and intra-episode randomizations. The first type refers to parameters sampled at the beginning of an episode and then kept constant. The latter is sampled periodically throughout an episode.
+While \\(N(\mu, \sigma)\\) denotes a normal distribution with mean $$\mu$$ and standard deviation $$\sigma$$, $$U(a, b)$$ and $$LogU(a, b)$$ denote a uniform and log-uniform distribution in the range from $$a$$ to $$b$$, respectively.
 
 ### Finger Parameters
 
@@ -151,15 +153,16 @@ Cite this paper as:
         <td align="center"> $$R$$ </td>
         <td align="center"> $$\text{mm}$$ </td>
         <td align="center"> inter </td>
-        <td align="center"> $$U(5.5, 6.5)$$ </td>
-        <td align="center"> $$3.5$$ </td>
+        <td align="center"> $$U(4.0, 8.0)$$ </td>
+        <td align="center"> $$6.0$$ </td>
     </tr>
     <tr>
         <td align="left"> Lateral friction </td> 
         <td align="center"> $$\mu_\text{lat}$$ </td>
         <td align="center"> $$1$$ </td>
         <td align="center"> inter </td>
-        <td colspan="2" align="center"> $$U(0.8, 1.0)$$ </td>
+        <td align="center"> $$U(1.1, 1.3)$$ </td>
+        <td align="center"> $$U(0.8, 1.0)$$ </td>
     </tr>
     <tr>
         <td align="left"> Spinning friction </td> 
@@ -261,9 +264,9 @@ Cite this paper as:
     </tr>
     <tr>
         <th align="Left"> Marble </th>
-        <td align="center"> $$0.1$$ </td> 
-        <td align="center"> $$0.075$$ </td> 
-        <td align="center"> $$0.075$$ </td> 
+        <td align="center"> $$0.15$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
         <td align="center"> n. a. </td> 
         <td align="center"> $$0.01$$ </td> 
         <td align="center"> $$0.01$$ </td> 
@@ -271,10 +274,10 @@ Cite this paper as:
     </tr>
     <tr>
         <th align="Left"> Bolt </th>
-        <td align="center"> $$0.1$$ </td> 
-        <td align="center"> $$0.075$$ </td> 
-        <td align="center"> $$0.075$$ </td> 
-        <td align="center"> $$0.025$$ </td> 
+        <td align="center"> $$0.15$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
         <td align="center"> $$0.01$$ </td> 
         <td align="center"> $$0.01$$ </td> 
         <td align="center"> $$0.01$$ </td> 
@@ -290,7 +293,7 @@ Cite this paper as:
     </tr>
     <tr>
         <td> Number of environments </td>
-        <td> $$12$$ </td>
+        <td> $$8$$ </td>
     </tr>
     <tr>
         <td> Replay buffer sixe </td>
