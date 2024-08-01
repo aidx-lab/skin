@@ -37,7 +37,7 @@ Cite this paper as:
 
 ## Domain Randomization
 We distinguish two types of domain randomization: Inter-episode and intra-episode randomizations. The first type refers to parameters sampled at the beginning of an episode and then kept constant. The latter is sampled periodically throughout an episode.
-While \\(N(\mu, \sigma)\\) denotes a normal distribution with mean $$\mu$$ and standard deviation $$\sigma$$, $$U(a, b)$$ and $$LogU(a, b)$$ denote a uniform and log-uniform distribution in the range from $$a$$ to $$b$$, respectively.
+While $$(N(\mu, \sigma)$$ denotes a normal distribution with mean $$\mu$$ and standard deviation $$\sigma$$, $$U(a, b)$$ and $$LogU(a, b)$$ denote a uniform and log-uniform distribution in the range from $$a$$ to $$b$$, respectively.
 
 ### Finger Parameters
 
@@ -248,41 +248,7 @@ While \\(N(\mu, \sigma)\\) denotes a normal distribution with mean $$\mu$$ and s
 ---
 
 ## Learning Configuration
-
-### Reward Constants
-
-<table>
-    <tr>
-        <th></th>
-        <th align="center"> $$\lambda_p$$</th>
-        <th align="center"> $$\lambda_g$$</th>
-        <th align="center"> $$\lambda_f$$</th>
-        <th align="center"> $$\lambda_\alpha$$</th>
-        <th align="center"> $$\lambda_q$$</th>
-        <th align="center"> $$\lambda_\dot{q}$$</th>
-        <th align="center"> $$\lambda_\tau$$</th>
-    </tr>
-    <tr>
-        <th align="Left"> Marble </th>
-        <td align="center"> $$0.15$$ </td> 
-        <td align="center"> $$0.05$$ </td> 
-        <td align="center"> $$0.05$$ </td> 
-        <td align="center"> n. a. </td> 
-        <td align="center"> $$0.01$$ </td> 
-        <td align="center"> $$0.01$$ </td> 
-        <td align="center"> $$0.01$$ </td> 
-    </tr>
-    <tr>
-        <th align="Left"> Bolt </th>
-        <td align="center"> $$0.15$$ </td> 
-        <td align="center"> $$0.05$$ </td> 
-        <td align="center"> $$0.05$$ </td> 
-        <td align="center"> $$0.05$$ </td> 
-        <td align="center"> $$0.01$$ </td> 
-        <td align="center"> $$0.01$$ </td> 
-        <td align="center"> $$0.01$$ </td> 
-    </tr>
-</table>
+To train the policies, we relied on the Soft-Actor-Critic algorithm (SAC).
 
 ### Learning Parameters
 
@@ -334,5 +300,40 @@ While \\(N(\mu, \sigma)\\) denotes a normal distribution with mean $$\mu$$ and s
     <tr>
         <td> Batch size </td>
         <td> $$256$$ </td>
+    </tr>
+</table>
+
+### Reward Constants
+
+<table>
+    <tr>
+        <th></th>
+        <th align="center"> $$\lambda_p$$</th>
+        <th align="center"> $$\lambda_g$$</th>
+        <th align="center"> $$\lambda_f$$</th>
+        <th align="center"> $$\lambda_\alpha$$</th>
+        <th align="center"> $$\lambda_q$$</th>
+        <th align="center"> $$\lambda_\dot{q}$$</th>
+        <th align="center"> $$\lambda_\tau$$</th>
+    </tr>
+    <tr>
+        <th align="Left"> Marble </th>
+        <td align="center"> $$0.15$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> n. a. </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+    </tr>
+    <tr>
+        <th align="Left"> Bolt </th>
+        <td align="center"> $$0.15$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.05$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
+        <td align="center"> $$0.01$$ </td> 
     </tr>
 </table>
