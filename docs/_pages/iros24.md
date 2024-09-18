@@ -30,7 +30,7 @@ Moreover, we demonstrate that all policies successfully transfer from the simula
 
 Cite this paper as:
 
-    @inproceedings{Kasolowsky.2024,
+    @inproceedings{kasolowsky2024,
         author = {Ulf Kasolowsky and Berthold B{\"a}uml},
         booktitle = {IEEE International Conference on Intelligent Robots and Systems},
         title = {Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer},
