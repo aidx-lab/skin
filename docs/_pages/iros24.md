@@ -7,7 +7,7 @@ usemathjax: true
 ## Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer
 
 This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer**](){:target="_blank"} by
-[Ulf Kasolowsky](https://www.linkedin.com/in/kasolowsky/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
+[Ulf Kasolowsky](https://www.linkedin.com/in/kasolowsky/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} accepted for the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
 <p align="center">
 <iframe width="746" height="420" src="https://www.youtube.com/embed/piERixGJGBU?si=P7Rj55e0Vo7RCoMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -24,9 +24,8 @@ For this, we present a self-contained calibration method without external tools 
 To demonstrate the validity of our approach, we learn two challenging fine manipulation tasks: Rolling a marble and a bolt between two fingers. 
 We show in simulation experiments that tactile feedback is crucial for precise manipulation and reaching sub-taxel resolution of < 1 mm (despite a taxel spacing of 4 mm). 
 Moreover, we demonstrate that all policies successfully transfer from the simulation to the real robotic hand.
-<p align="center">
-<img src="/skin/assets/imgs/iros24/front.png" alt="drawing" width="800"/>
-</p>
+
+![Sequence](/skin/assets/imgs/iros24/front.png)
 
 Cite this paper as:
 

@@ -14,6 +14,4 @@ IROS 2024 by
 
 [Full Paper](){:target="_blank"} / [Video](https://www.youtube.com/watch?v=piERixGJGBU){:target="_blank"}
 
-<p align="center">
-<img src="/skin/assets/imgs/iros24/front.png" alt="drawing" width="800"/>
-</p>
+![Sequence](/skin/assets/imgs/iros24/front.png)
