@@ -13,6 +13,10 @@ This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learn
 <iframe width="746" height="420" src="https://www.youtube.com/watch?v=piERixGJGBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
+<p align="center">
+<iframe width="746" height="420" src="https://www.youtube.com/embed/aldTETxDbcU?si=mP_s1jbsa338V81j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
 ## Abstract
 
 We want to enable fine manipulation with a multi-fingered robotic hand by using modern deep reinforcement learning methods. 
