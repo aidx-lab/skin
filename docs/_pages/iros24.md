@@ -1,12 +1,12 @@
 ---
 permalink: /iros24
 layout: page
-title: IROS24
+title: IROS 2024
 usemathjax: true
 ---
 ## Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer
 
-This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer**](){:target="_blank"} by
+This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer**](https://arxiv.org/abs/2409.12735){:target="_blank"} by
 [Ulf Kasolowsky](https://www.linkedin.com/in/kasolowsky/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} accepted for the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
 <p align="center">
