@@ -9,8 +9,8 @@ usemathjax: true
 This site complements our paper [**Fine Manipulation Using a Tactile Skin: Learning in Simulation and Sim-to-Real Transfer**](https://arxiv.org/abs/2409.12735){:target="_blank"} by
 [Ulf Kasolowsky](https://www.linkedin.com/in/kasolowsky/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} accepted for the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
-<p align="center">
-<iframe width="746" height="420" src="https://www.youtube.com/embed/piERixGJGBU?si=P7Rj55e0Vo7RCoMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p align="center" style="margin: 0">
+<iframe class="youtube-video" width="746" height="420" src="https://www.youtube.com/embed/piERixGJGBU?si=P7Rj55e0Vo7RCoMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 ## Abstract
