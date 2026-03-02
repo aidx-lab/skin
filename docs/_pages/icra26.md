@@ -1,7 +1,7 @@
 ---
-permalink: /iros24
+permalink: /icra26
 layout: page
-title: IROS 2024
+title: ICRA 26
 usemathjax: true
 ---
 ## Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin
