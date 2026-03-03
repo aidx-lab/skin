@@ -1,7 +1,7 @@
 ---
 permalink: /icra26
 layout: page
-title: ICRA 26
+title: ICRA 2026
 usemathjax: true
 ---
 ## Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin
@@ -22,7 +22,7 @@ We show that the task can be performed purely tactile using a spatially-resolved
 
 Cite this paper as:
 
-    @inproceedings{kasolowsky2024,
+    @inproceedings{kasolowsky2026,
         author = {Ulf Kasolowsky and Berthold B{\"a}uml},
         title = {Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin},
         year = {2024}
