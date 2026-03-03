@@ -33,3 +33,77 @@ Cite this paper as:
 ## Domain Randomization
 We distinguish two types of domain randomization: Inter-episode and intra-episode randomizations. The first type refers to parameters sampled at the beginning of an episode and then kept constant. The latter is sampled periodically throughout an episode.
 While $$N(\mu, \sigma)$$ denotes a normal distribution with mean $$\mu$$ and standard deviation $$\sigma$$, $$U(a, b)$$ and $$LogU(a, b)$$ denote a uniform and log-uniform distribution in the range from $$a$$ to $$b$$, respectively.
+
+
+### Finger Parameters
+
+<table>
+    <tr>
+        <th colspan="2" align="left"> Parameter </th>
+        <th align="center"> Unit </th>
+        <th align="center"> Type </th>
+        <th align="center"> Distribution </th>
+    </tr>
+    <tr>
+        <td align="left"> Joint offsets </td> 
+        <td align="center"> $$q_\text{off}$$ </td>
+        <td align="center"> $$\text{rad}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-0.04, 0.04)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Joint noise </td> 
+        <td align="center"> $$q_\text{noise}$$ </td>
+        <td align="center"> $$\text{rad}$$ </td>
+        <td align="center"> intra </td>
+        <td align="center"> $$N(0.0, 0.02)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Proportional gain </td> 
+        <td align="center"> $$K_p$$ </td>
+        <td align="center"> $$\text{N}\,\text{m}\,\text{rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(4.8, 5.2)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Damping gain </td> 
+        <td align="center"> $$K_d$$ </td>
+        <td align="center"> $$\text{N}\,\text{m}\,\text{s}\,\text{rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.26, 0.33)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Parasitic stiffness </td> 
+        <td align="center"> $$K_e$$ </td>
+        <td align="center"> $$\text{N}\,\text{m}\,\text{rad}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(15, 35)$$ </td>
+    </tr>
+    <tr>
+        <td rowspan="2" align="left"> Stick friction </td> 
+        <td align="center"> $$\mu_{\text{stick},1/2}$$ </td>
+        <td align="center"> $$\text{N}\,\text{m}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.01, 0.03)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\mu_{\text{stick},3}$$ </td>
+        <td align="center"> $$\text{N}\,\text{m}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.03, 0.05)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Lateral friction </td> 
+        <td align="center"> $$\mu_\text{lat}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.8, 1.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Spinning friction </td> 
+        <td align="center"> $$\mu_\text{spin}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(0.0, 0.2)$$ </td>
+    </tr>
+</table>​
