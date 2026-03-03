@@ -7,6 +7,7 @@ author: "{ulf.kasolowsky,berthold.baeuml}@tum.de"
 header_pages:
   - index.md
   - _pages/iros24.md
+  - _pages/icra26.md
   - _pages/aidx-lab.md
   
 include:
