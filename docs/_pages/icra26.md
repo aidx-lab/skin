@@ -106,4 +106,122 @@ While $$N(\mu, \sigma)$$ denotes a normal distribution with mean $$\mu$$ and sta
         <td align="center"> inter </td>
         <td colspan="2" align="center"> $$U(0.0, 0.2)$$ </td>
     </tr>
+    <tr>
+        <td align="left"> Rolling friction </td> 
+        <td align="center"> $$\mu_\text{roll}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(0.0, 0.1)$$ </td>
+    </tr>
+</table>
+
+### Object Parameters
+
+<table>
+    <tr>
+        <th colspan="2" align="left"> Parameter </th>
+        <th align="center"> Unit </th>
+        <th align="center"> Type </th>
+        <th align="center"> Distribution </th>
+    </tr>
+    <tr>
+        <td align="left"> Lateral friction </td> 
+        <td align="center"> $$\mu_\text{lat}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.8, 1.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Spinning friction </td> 
+        <td align="center"> $$\mu_\text{spin}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(0.0, 0.2)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Rolling friction </td> 
+        <td align="center"> $$\mu_\text{roll}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td colspan="2" align="center"> $$U(0.0, 0.1)$$ </td>
+    </tr>
 </table>​
+
+### Skin Parameters
+
+<table>
+    <tr>
+        <th colspan="2" align="left"> Parameter </th>
+        <th align="center"> Unit </th>
+        <th align="center"> Type </th>
+        <th align="center"> Distribution </th>
+    </tr>
+    <tr>
+        <td rowspan="2" align="left"> Sensor position </td> 
+        <td align="center"> $$\Delta x$$ </td>
+        <td align="center"> $$\text{mm}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0.25, -0.25)$$ </td>
+    </tr>
+    <tr>
+        <td align="center"> $$\Delta y$$ </td>
+        <td align="center"> $$\text{mm}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-0.25, 0.25)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Sensor orientation </td>
+        <td align="center"> $$\gamma$$ </td>
+        <td align="center"> $$^\circ$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-2.3, 2.3)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Elasticity </td> 
+        <td align="center"> $$E$$ </td>
+        <td align="center"> $$\text{MPa}\,\text{m}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(100, 500)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Scale </td> 
+        <td align="center"> $$S$$ </td>
+        <td align="center"> $$\text{N}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(70, 100)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Scale Offset </td> 
+        <td align="center"> $$\Delta S_j$$ </td>
+        <td align="center"> $$\text{N}^{-1}$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-7.5, 7.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Taxel offsets </td> 
+        <td align="center"> $$T_\text{off}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(-2.5, 2.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Noise range </td> 
+        <td align="center"> $$\sigma_\text{taxel}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> inter </td>
+        <td align="center"> $$U(0, 2.5)$$ </td>
+    </tr>
+    <tr>
+        <td align="left"> Taxel noise </td> 
+        <td align="center"> $$T_\text{noise}$$ </td>
+        <td align="center"> $$1$$ </td>
+        <td align="center"> intra </td>
+        <td align="center"> $$N(0, \sigma_\text{noise})$$ </td>
+    </tr>
+</table>​
+
+
+---
+
+## Learning Configuration
+To train the policies, we relied on the Proximal-Policy-Optimization algorithm (PPO).
