@@ -25,7 +25,7 @@ Cite this paper as:
     @inproceedings{kasolowsky2026,
         author = {Ulf Kasolowsky and Berthold B{\"a}uml},
         title = {Learning Controlled Separation of Small Objects Between Two Fingers with a Tactile Skin},
-        year = {2024}
+        year = {2026}
     }
  
 ---
