@@ -225,3 +225,50 @@ While $$N(\mu, \sigma)$$ denotes a normal distribution with mean $$\mu$$ and sta
 
 ## Learning Configuration
 To train the policies, we relied on the Proximal-Policy-Optimization algorithm (PPO).
+
+<table>
+    <tr>
+        <th> Parameter </th>
+        <th> Value </th>
+    </tr>
+    <tr>
+        <td> Number of environments </td>
+        <td> $$160$$ </td>
+    </tr>
+    <tr>
+        <td> Total Timesteps </td>
+        <td> $$8000000$$ </td>
+    </tr>
+    <tr>
+        <td> Num Steps per Rollout</td>
+        <td> $$60000$$ </td>
+    </tr>
+    <tr>
+        <td> Batch Size </td>
+        <td> $$4000$$ </td>
+    </tr>
+    <tr>
+        <td> Learning Rate </td>
+        <td> $$0.0003$$ </td>
+    </tr>
+    <tr>
+        <td> Num Epochs </td>
+        <td> $$5$$ </td>
+    </tr>
+    <tr>
+        <td> Discount Factor </td>
+        <td> $$0.99$$ </td>
+    </tr>
+    <tr>
+        <td> General Advantage Estimator Lambda </td>
+        <td> $$0.95$$ </td>
+    </tr>
+    <tr>
+        <td> Maximum Gradient Norm </td>
+        <td> $$0.5$$ </td>
+    </tr>
+    <tr>
+        <td> Value Function Coefficient </td>
+        <td> $$0.5$$ </td>
+    </tr>
+</table>
